@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from datetime import datetime
 
 # Create your views here.
 # Контроллеры:
@@ -55,6 +56,7 @@ def products(request):
                 'image': '/static/vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png',
             },
         ],
-        'copyrightText': 'Copyright GeekShop 2021',
+        'copyrightText': f'Copyright GeekShop',
+        'currentDate': datetime.now(),
     }
     return render(request, 'products/products.html', context)
