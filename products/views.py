@@ -17,7 +17,7 @@ def index(request):
 def products(request):
     context = {
         'title': 'GeekShop - Каталог',
-        'navigationText': 'GeekShop - Каталог',
+        'navigationText': 'GeekShop',
         'products': [
             {
                 'name': 'Худи черного цвета с монограммами adidas Originals',
