@@ -1,0 +1,18 @@
+[
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Новинки",
+      "description": "Описание новинок"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Одежда",
+      "description": "Описание для одежды"
+    }
+  }
+]
